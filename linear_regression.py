@@ -189,7 +189,7 @@ np.mean(np.sqrt(-cross_val_score(reg_model,
 ######################################################
 # Simple Linear Regression with Gradient Descent from Scratch
 ######################################################
-#mant
+
 
 # Cost function MSE
 def cost_function(Y, b, w, X): # y bağımlı değiş. x bağımsız değişken
