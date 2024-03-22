@@ -45,3 +45,10 @@ Bu projenin amacı, veri setindeki müşteri bilgileri ve hizmet kullanımıyla 
 6. En iyi modelin performansı değerlendirilir.
 
 
+
+----------------------------------------------------Case Study 2--------------------------------------------------------------------------
+   
+<img width="1419" alt="flooo" src="https://github.com/melisacevik/Machine-Learning/assets/113050206/b828cc4f-2374-46b5-8c1f-72a97b4e94c3">
+
+
+
