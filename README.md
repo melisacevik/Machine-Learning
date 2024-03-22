@@ -51,4 +51,42 @@ Bu projenin amacı, veri setindeki müşteri bilgileri ve hizmet kullanımıyla 
 <img width="1419" alt="flooo" src="https://github.com/melisacevik/Machine-Learning/assets/113050206/b828cc4f-2374-46b5-8c1f-72a97b4e94c3">
 
 
+# FLO Müşteri Segmentasyonu Projesi
+
+Bu proje, FLO müşterilerini segmentlere ayırmak ve pazarlama stratejilerini belirlemek amacıyla gerçekleştirilmiştir. Proje, K-Means ve Hiyerarşik Kümeleme algoritmalarını kullanarak müşterileri segmentlere ayırmaktadır.
+
+## Veri Seti
+
+Veri seti, müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgileri içerir. Her bir müşteri için çeşitli özellikler ve davranış verileri bulunmaktadır.
+
+# FLO Müşteri Segmentasyonu Projesi
+
+Bu proje, FLO müşterilerini segmentlere ayırmak ve pazarlama stratejilerini belirlemek amacıyla gerçekleştirilmiştir. Proje, K-Means ve Hiyerarşik Kümeleme algoritmalarını kullanarak müşterileri segmentlere ayırmaktadır.
+
+## Aşamalar
+
+### Aşama 1: Veriyi Hazırlama
+### Aşama 2: K-Means ile Müşteri Segmentasyonu
+
+1. Değişkenleri standartlaştırınız.
+2. Optimum küme sayısını belirleyiniz.
+   - Elbow yöntemi ile k-Elbow grafiği kullanılabilir.
+3. Modelinizi oluşturunuz ve müşterilerinizi segmentleyiniz.
+4. Her bir segmenti istatistiksel olarak inceleyiniz.
+
+### Aşama 3: Hierarchical Clustering ile Müşteri Segmentasyonu
+
+1. Görev 2'de standırlaştırdığınız dataframe'i kullanarak optimum küme sayısını belirleyiniz.
+2. Modelinizi oluşturunuz ve müşterileriniz segmentleyiniz.
+3. Her bir segmenti istatistiksel olarak inceleyiniz.
+
+## Gereksinimler
+
+Bu proje çalıştırılmak için aşağıdaki kütüphanelerin yüklü olması gerekmektedir:
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- yellowbrick
+
 
