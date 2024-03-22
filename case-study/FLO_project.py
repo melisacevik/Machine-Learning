@@ -72,12 +72,10 @@ pd.set_option('display.float_format', lambda x: '%.4f' % x)
 
 # 1. flo_data_20k.csv verisini okutunuz.
 
-df_ = pd.read_csv("datasets/flo_data_20k.csv") # ASLA GÜNCELLENMEYECEK
-df = df_.copy() # DEĞİŞKEN EKLENEBİLİR ( SEGMENT İSTATİSTİKİ OLARAK İNCELENECEK )# SEGMENT OLUŞTURULACAK
+df_ = pd.read_csv("datasets/flo_data_20k.csv")
+df = df_.copy() 
 
 df.head()
-
-# genel resme bakma.
 
 def check_df(dataframe, head=5):
     print("######################## Shape ############################")
@@ -147,7 +145,6 @@ df.drop(drop_list, axis=1, inplace=True)
 df.head()
 
 
-
 # object veri tipinde olanlar : order_channel(4) , last_order_channel(5) , interested_in_categories_12(32)
 
 # one-hot encoding işleminden geçiriyorum.
@@ -186,9 +183,6 @@ elbow.show()
 
 elbow.elbow_value_
 
-# optimum küme sayısı : 9
-
-
 ######
 # 3. Modelinizi oluşturunuz ve müşterilerinizi segmentleyiniz
 ######
@@ -210,7 +204,7 @@ df["cluster"] = df["cluster"] + 1
 
 df[df["cluster"]==5]
 
-# istatistiki olarak incelemek için object'lerden kurtuluyorum.
+# istatistiksel olarak incelemek için objectlerden kurtuluyorum.
 
 df.info()
 
@@ -227,6 +221,7 @@ df.groupby("cluster").agg(["count","mean","median"])
 ######
 
 # 1: Görev 2'de standırlaştırdığınız dataframe'i kullanarak optimum küme sayısını belirleyiniz.
+
 # Görev1. ve 4. adımın dışında tekrar çalıştır.
 
 df[0:5]
@@ -247,6 +242,7 @@ dendrogram(hc_average,
 plt.show()
 
 # küme sayısını belirleme
+
 plt.figure(figsize=(7,5))
 plt.title("Dendrograms")
 dend = dendrogram(hc_average,truncate_mode="lastp",
@@ -255,7 +251,7 @@ dend = dendrogram(hc_average,truncate_mode="lastp",
 plt.axhline(y=1, color='r', linestyle="--")
 plt.show()
 
-# küme sayısını : 10 olarak karar verdim.
+# küme sayısı : 10 
 
 from sklearn.cluster import AgglomerativeClustering
 
@@ -273,7 +269,6 @@ df.head()
 df["kmeans_cluster_no"] = clusters_kmeans
 df["kmeans_cluster_no"] = df["kmeans_cluster_no"] + 1
 df.head()
-
 
 
 # 3. Her bir segmenti istatistiksel olarak inceleyeniz
