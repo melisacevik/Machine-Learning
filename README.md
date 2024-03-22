@@ -1,3 +1,9 @@
+                                         2 farklı proje yer almaktadır.
+
+                                         1. Telco Churn Prediction
+                                         2. FLO - Gözetimsiz Öğrenme ile Müşteri Segmentasyonu
+
+
 <img width="1380" alt="Screenshot 2024-03-16 at 09 03 28" src="https://github.com/melisacevik/Machine-Learning/assets/113050206/29060377-4409-46a0-885f-50ced7905489">
 
 # Telco Churn Prediction
