@@ -12,7 +12,7 @@ Bu proje, bir telekom şirketinin müşteri kaybını tahmin etmek için bir mak
 
 ## Proje Linki
 
-Proje GitHub deposuna [buradan](https://github.com/melisacevik/Machine-Learning/blob/master/case-study/case-study3.py) erişebilirsiniz.
+Proje linkine [buradan](https://github.com/melisacevik/Machine-Learning/blob/master/case-study/case-study3.py) erişebilirsiniz.
 
 ## Kullanılan Teknolojiler
 
@@ -65,7 +65,7 @@ Bu proje, FLO müşterilerini segmentlere ayırmak ve pazarlama stratejilerini b
 
 ## Proje Linki
 
-Proje GitHub deposuna [buradan](https://github.com/melisacevik/Machine-Learning/blob/master/case-study/FLO_project.py) erişebilirsiniz.
+Proje linkine [buradan](https://github.com/melisacevik/Machine-Learning/blob/master/case-study/FLO_project.py) erişebilirsiniz.
 
 ## Aşamalar
 
