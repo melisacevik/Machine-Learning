@@ -63,6 +63,10 @@ Veri seti, müşterilerin geçmiş alışveriş davranışlarından elde edilen 
 
 Bu proje, FLO müşterilerini segmentlere ayırmak ve pazarlama stratejilerini belirlemek amacıyla gerçekleştirilmiştir. Proje, K-Means ve Hiyerarşik Kümeleme algoritmalarını kullanarak müşterileri segmentlere ayırmaktadır.
 
+## Proje Linki
+
+Proje GitHub deposuna [buradan](https://github.com/melisacevik/Machine-Learning/blob/master/case-study/FLO_project.py) erişebilirsiniz.
+
 ## Aşamalar
 
 ### Aşama 1: Veriyi Hazırlama
